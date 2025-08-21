@@ -159,25 +159,6 @@ The system implements the optimal approach for small-to-medium scale application
 - Consistent category labeling
 - Complete metadata for display
 
-## Troubleshooting
-
-### Common Issues
-
-1. **No Courses Showing**
-   - Check if skill extraction files exist
-   - Verify CSV format and column names
-   - Review server logs for data loading errors
-
-2. **Poor Match Quality**
-   - Ensure skills are properly extracted and categorized
-   - Check if TF-IDF training completed successfully
-   - Verify threshold settings (default: 30%)
-
-3. **Slow Performance**
-   - Reduce number of courses/jobs if dataset is large
-   - Check system memory usage
-   - Consider batch processing for large datasets
-
 ### System Status Indicators
 - 🟢 **Green**: System ready, embeddings trained
 - 🟡 **Yellow**: System loading or training
